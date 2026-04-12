@@ -84,6 +84,21 @@ report page, a header looks like this:
 
 On non-CRS pages, only the title and source URL are captured; the body follows.
 
+## Markdown Flavor
+The converter outputs CommonMark-compatible Markdown—the most widely supported baseline spec. Specifically it uses:
+
+`#` through `#####` for headings
+`**bold**` and `_italic_`
+`-` for unordered list items
+`|` pipe tables
+`>` blockquotes
+`---` horizontal rules
+`[text](url)` links
+`  \n` (two trailing spaces) for line breaks
+
+
+No flavor-specific extensions, but because it sticks to the CommonMark baseline, it renders correctly in GitHub, Obsidian, VS Code, and most other Markdown environments without any conversion needed.
+
 ---
 
 ## Related
