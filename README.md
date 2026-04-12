@@ -1,4 +1,4 @@
-# CRS Report Extractor
+# Markdown Maker
 
 A browser extension that converts any HTML webpage to Markdown with one click.
 Auto-extracts and downloads on open—no button required.
@@ -16,9 +16,9 @@ Works on any webpage. Optimized for Congress.gov.
 
 | Version | File |
 |---|---|
-| Chrome / Arc / Edge | `crs-extractor.zip` |
-| Firefox (temporary) | `crs-extractor-firefox.zip` |
-| Firefox (permanent) | `crs-extractor-firefox.xpi` |
+| Chrome / Arc / Edge | `markdown-maker-chromium.zip` |
+| Firefox (temporary) | `markdown-maker-firefox.zip` |
+| Firefox (permanent) | `markdown-maker-firefox.xpi` |
 
 ---
 
@@ -26,10 +26,10 @@ Works on any webpage. Optimized for Congress.gov.
 
 ### Chrome, Arc, or Edge
 
-1. Unzip `crs-extractor.zip` somewhere permanent—not your Downloads folder
+1. Unzip `markdown-maker-chromium.zip` somewhere permanent—not your Downloads folder
 2. Go to `chrome://extensions` (or `arc://extensions`)
 3. Enable **Developer mode** (toggle, top right)
-4. Click **Load unpacked** → select the unzipped `crs-extractor` folder
+4. Click **Load unpacked** → select the unzipped `markdown-maker-chromium` folder
 5. Pin the extension via the puzzle-piece icon in your toolbar
 
 The extension persists across restarts as long as Developer mode remains enabled.
@@ -40,13 +40,13 @@ The extension persists across restarts as long as Developer mode remains enabled
 2. Find `xpinstall.signatures.required` and set it to `false`
 3. Go to `about:addons`
 4. Click the gear icon → **Install Add-on From File**
-5. Select `crs-extractor-firefox.xpi`
+5. Select `markdown-maker-firefox.xpi`
 
 ### Firefox (temporary install)
 
 1. Go to `about:debugging` → **This Firefox**
 2. Click **Load Temporary Add-on**
-3. Navigate into the unzipped `crs-extractor-firefox` folder and select `manifest.json`
+3. Navigate into the unzipped `markdown-maker-firefox` folder and select `manifest.json`
 
 Note: temporary installs are removed on browser restart.
 
